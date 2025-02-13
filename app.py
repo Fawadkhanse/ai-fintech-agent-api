@@ -55,34 +55,31 @@ def retrieve_from_knowledge_base(query):
 def generate_response_api(input_text, max_length=100):
     load_dotenv()
     HF_API_TOKEN = os.getenv("HF_API_TOKEN")  # Replace with your actual token
-    MODEL_ID = os.getenv("MODEL_END_PONT")  # Replace with your chosen model
+    MODEL_ID = os.getenv("MODEL_ENDPOINT")  # Replace with your chosen model
     headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
     api_url = f"https://api-inference.huggingface.co/models/{MODEL_ID}"
     payload = {
         "inputs": input_text,
         "parameters": {"max_length": max_length, "num_return_sequences": 1},
     }
-
     try:
         response = requests.post(api_url, headers=headers, json=payload)
         result = response.json()
-
+        print(f"API Response: {result}")  # Log the API response
         if "error" in result:
             return "I encountered an error while generating a response."
-
         generated_text = result[0]["generated_text"].strip()
-
         # Post-process to remove internal reasoning or extra content
         match = re.search(r"</think>\s*(.+)", generated_text, re.DOTALL)
         if match:
             extracted_response = match.group(1).strip()
         else:
             extracted_response = generated_text
-
         # Clean up any remaining markers or delimiters
         extracted_response = re.sub(r"---|###|####", "", extracted_response).strip()
-
         return extracted_response
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
 
     except Exception as e:
         return f"An error occurred: {str(e)}"
@@ -115,3 +112,7 @@ async def chat(request: ChatRequest):
         raise HTTPException(status_code=400, detail="Please provide a valid message.")
     response = ai_agent(user_input)
     return {"response": response}
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the AI Fintech Agent API! Visit /docs for Swagger UI."}
