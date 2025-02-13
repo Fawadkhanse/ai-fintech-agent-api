@@ -1,0 +1,10 @@
+{
+    "greeting": "Hello! How can I assist you today?",
+    "how_are_you": "I'm just a bot, but I'm here to help! How can I assist you?",
+    "farewell": "Goodbye! Have a great day!",
+    "check_account_balance": "Your current account balance is 530,000 PKR.",
+    "open_account": "To open an account, please visit your nearest branch or use our mobile app.",
+    "block_credit_card": "To block your credit card, call our helpline or use the mobile app under 'Card Management'.",
+    "fallback": "I'm sorry, I couldn't understand that. Could you try rephrasing?",
+    "transaction_history": "Your transaction history is available for download. Please click the link to access it: filelink.com"
+}

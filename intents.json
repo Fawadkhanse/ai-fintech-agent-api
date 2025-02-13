@@ -1,0 +1,73 @@
+{
+    "greeting": ["hello", "hi", "hey", "good morning", "good evening"],
+    "how_are_you": ["how are you?", "how's it going?", "what's up?"],
+    "farewell": ["bye", "goodbye", "see you", "take care"],
+    "open_account": [
+        "how to open account",
+        "open an account",
+        "start a new account",
+        "create account"
+    ],
+    "block_credit_card": [
+        "how to block credit card",
+        "block my credit card",
+        "stop my card",
+        "disable my credit card"
+    ],
+"transaction_history": [
+    "show my transaction history",
+    "what are my recent transactions",
+    "list my transactions",
+    "transaction details please",
+    "can I see my spending history",
+    "show my recent purchases",
+    "give me a list of my transactions",
+    "what did I spend last month",
+    "pull up my transaction history",
+    "fetch my account activity",
+    "view my expenses",
+    "show me my account transactions",
+    "can I check my transaction log",
+    "show my last transactions",
+    "list my account activities",
+    "give me details of my transactions",
+    "I want to see my transaction history",
+    "what transactions did I make recently",
+    "pull up my spending log",
+    "view my purchase history"
+]
+,
+
+    "check_account_balance": [
+        "what is my account balance?",
+        "how much money do I have?",
+        "check my balance",
+        "what's my account balance right now?",
+        "can you tell me how much money I have in my account?",
+        "how much is left in my bank account?",
+        "check my account balance, please",
+        "how much do I currently have in my account?",
+        "what’s the total amount in my account?",
+        "show me my current balance",
+        "do I have any money in my account?",
+        "how much money do I have available?",
+        "can you display my account balance?",
+        "what’s the balance in my account?",
+        "how much do I have in my savings account?",
+        "tell me the balance in my checking account",
+        "check the funds in my account",
+        "what’s my available balance?",
+        "can I see how much I have in my account?",
+        "how much money is in my account?",
+        "show me how much is left in my account",
+        "can you fetch my account balance for me?",
+        "i need to know the balance of my account",
+        "tell me my bank balance",
+        "look up how much is in my account",
+        "get my account balance",
+        "how much do I have in my bank?",
+        "give me my account balance",
+        "what’s my current account balance?",
+        "check the balance in my account"
+    ]
+}
