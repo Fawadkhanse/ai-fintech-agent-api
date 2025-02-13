@@ -4,7 +4,8 @@ import requests
 from rapidfuzz import fuzz
 import re
 import json
-
+import os
+from dotenv import load_dotenv
 # Initialize FastAPI app
 app = FastAPI()
 
@@ -52,8 +53,9 @@ def retrieve_from_knowledge_base(query):
 
 # Function to generate response using Hugging Face Inference API
 def generate_response_api(input_text, max_length=100):
-    HF_API_TOKEN = "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"  # Replace with your actual token
-    MODEL_ID = "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"  # Replace with your chosen model
+    load_dotenv()
+    HF_API_TOKEN = os.getenv("HF_API_TOKEN")  # Replace with your actual token
+    MODEL_ID = os.getenv("MODEL_END_PONT")  # Replace with your chosen model
     headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
     api_url = f"https://api-inference.huggingface.co/models/{MODEL_ID}"
     payload = {
@@ -93,7 +95,7 @@ def ai_agent(user_input):
         if intent != "fallback":
             return responses.get(intent, "fallback")
         # Step 2: Knowledge Base Retrieval
-        
+
         kb_response = retrieve_from_knowledge_base(user_input)
         if kb_response:
             return kb_response
