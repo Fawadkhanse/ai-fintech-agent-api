@@ -14,30 +14,28 @@
         "stop my card",
         "disable my credit card"
     ],
-"transaction_history": [
-    "show my transaction history",
-    "what are my recent transactions",
-    "list my transactions",
-    "transaction details please",
-    "can I see my spending history",
-    "show my recent purchases",
-    "give me a list of my transactions",
-    "what did I spend last month",
-    "pull up my transaction history",
-    "fetch my account activity",
-    "view my expenses",
-    "show me my account transactions",
-    "can I check my transaction log",
-    "show my last transactions",
-    "list my account activities",
-    "give me details of my transactions",
-    "I want to see my transaction history",
-    "what transactions did I make recently",
-    "pull up my spending log",
-    "view my purchase history"
-]
-,
-
+    "transaction_history": [
+        "show my transaction history",
+        "what are my recent transactions",
+        "list my transactions",
+        "transaction details please",
+        "can I see my spending history",
+        "show my recent purchases",
+        "give me a list of my transactions",
+        "what did I spend last month",
+        "pull up my transaction history",
+        "fetch my account activity",
+        "view my expenses",
+        "show me my account transactions",
+        "can I check my transaction log",
+        "show my last transactions",
+        "list my account activities",
+        "give me details of my transactions",
+        "I want to see my transaction history",
+        "what transactions did I make recently",
+        "pull up my spending log",
+        "view my purchase history"
+    ],
     "check_account_balance": [
         "what is my account balance?",
         "how much money do I have?",
@@ -69,5 +67,390 @@
         "give me my account balance",
         "what’s my current account balance?",
         "check the balance in my account"
+    ],
+    "transfer_money": [
+        "how to transfer money",
+        "send money to another account",
+        "transfer funds between accounts",
+        "move money from savings to checking",
+        "how do I send money to someone?",
+        "transfer_money",
+       "how to transfer money",
+       "send money to another account",
+       "transfer funds between accounts",
+       "transfer fund",
+       "fund transfer",
+        "i want to transfer fund",
+        "i want to send money"
+    ],
+    "pay_bills": [
+        "how to pay my bill",
+        "pay my electricity bill",
+        "pay my water bill",
+        "pay my internet bill",
+        "how do I pay my utility bill?",
+        "pay my phone bill",
+        "how to pay my credit card bill",
+        "pay my gas bill",
+        "how do I pay my mortgage bill?",
+        "pay my subscription bill",
+        "how to pay my medical bill",
+        "pay my school fee bill",
+        "how do I pay my insurance bill?",
+        "pay my cable bill",
+        "how to pay my property tax bill",
+        "pay my car loan bill",
+        "how do I pay my student loan bill?",
+        "pay my rent bill",
+        "how to pay my child support bill",
+        "pay my legal bill",
+        "how do I pay my membership bill?",
+     "how to pay my bills online",
+    "pay utility bill",
+    "set up automatic bill payments",
+    "pay credit card bill",
+    "can I pay my mortgage through the app?",
+    "i want to pay bills",
+    "i want pay bills",
+    "pay my bills",
+    "how do i pay bills",
+    "pay bill", "i want to pay my bill", "pay my bill"
+
+    ],
+    "apply_for_loan": [
+        "how to apply for a loan",
+        "start a loan application",
+        "apply for personal loan",
+        "get a car loan",
+        "apply for a home loan"
+    ],
+    "check_loan_status": [
+        "what is the status of my loan?",
+        "check my loan application",
+        "is my loan approved?",
+        "loan approval status",
+        "where is my loan application at?"
+    ],
+    "deposit_check": [
+        "how to deposit a check",
+        "mobile check deposit",
+        "deposit a check using the app",
+        "can I deposit a check remotely?",
+        "upload a check for deposit"
+    ],
+    "order_checks": [
+        "how to order checks",
+        "reorder checks",
+        "order new checkbook",
+        "get more checks",
+        "can I order checks online?"
+    ],
+    "change_address": [
+        "how to update my address",
+        "change my mailing address",
+        "update my contact information",
+        "change my residential address",
+        "how do I change my address on file?"
+    ],
+    "report_lost_card": [
+        "report lost debit card",
+        "my card is missing",
+        "I lost my credit card",
+        "card lost, what should I do?",
+        "how to report a lost card?"
+    ],
+    "request_credit_limit_increase": [
+        "how to increase my credit limit",
+        "request a higher credit limit",
+        "can I get a credit limit increase?",
+        "increase my spending limit",
+        "ask for a credit limit raise"
+    ],
+    "dispute_transaction": [
+        "how to dispute a transaction",
+        "dispute a charge on my account",
+        "report unauthorized transaction",
+        "file a dispute for a purchase",
+        "I want to dispute a charge"
+    ],
+    "activate_card": [
+        "how to activate my new card",
+        "activate my credit card",
+        "turn on my debit card",
+        "activate my replacement card",
+        "how do I activate my card?"
+    ],
+    "set_up_direct_deposit": [
+        "how to set up direct deposit",
+        "add direct deposit to my account",
+        "direct deposit setup",
+        "how do I get my paycheck deposited directly?",
+        "set up automatic paycheck deposit"
+    ],
+    "cancel_account": [
+        "how to close my account",
+        "cancel my bank account",
+        "close my savings account",
+        "terminate my account",
+        "how do I cancel my account?"
+    ],
+    "update_contact_information": [
+        "update my phone number",
+        "change my email address",
+        "update my mobile number",
+        "change my contact details",
+        "how to update my personal information"
+    ],
+    "request_statement": [
+        "how to get my bank statement",
+        "request a monthly statement",
+        "send me my account statement",
+        "can I get a copy of my statement?",
+        "email me my bank statement"
+    ],
+    "set_up_alerts": [
+        "how to set up account alerts",
+        "enable balance notifications",
+        "set up low balance alerts",
+        "get transaction alerts",
+        "how do I set up SMS alerts?"
+    ],
+    "reset_password": [
+        "how to reset my password",
+        "forgot my login password",
+        "reset my account password",
+        "recover my password",
+        "I forgot my password, help!"
+    ],
+    "link_external_account": [
+        "how to link another bank account",
+        "connect my external account",
+        "add another bank account",
+        "link my savings account",
+        "how do I connect my other bank?"
+    ],
+    "apply_for_credit_card": [
+        "how to apply for a credit card",
+        "start a credit card application",
+        "get a new credit card",
+        "apply for a rewards card",
+        "can I apply for a credit card online?"
+    ],
+    "check_credit_score": [
+        "how to check my credit score",
+        "view my credit report",
+        "what is my credit score?",
+        "get my credit rating",
+        "how do I see my credit score?"
+    ],
+    "request_overdraft_protection": [
+        "how to set up overdraft protection",
+        "enable overdraft coverage",
+        "protect my account from overdrafts",
+        "how do I add overdraft protection?",
+        "set up overdraft limit"
+    ],
+    "change_pin": [
+        "how to change my PIN",
+        "update my card PIN",
+        "change my debit card PIN",
+        "reset my ATM PIN",
+        "I want to change my PIN"
+    ],
+    "request_debit_card": [
+        "how to request a new debit card",
+        "get a replacement debit card",
+        "order a new card",
+        "request a debit card online",
+        "can I get a new card sent to me?"
+    ],
+    "check_interest_rate": [
+        "what is my interest rate?",
+        "check my savings account interest rate",
+        "how much interest am I earning?",
+        "what’s the interest rate on my loan?",
+        "show me my account's interest rate"
+    ],
+    "set_up_auto_save": [
+        "how to set up automatic savings",
+        "enable auto-save feature",
+        "automatically save money from my paycheck",
+        "set up round-up savings",
+        "how do I automate my savings?"
+    ],
+    "check_rewards_balance": [
+        "how many rewards points do I have?",
+        "check my rewards balance",
+        "view my credit card rewards",
+        "how much cashback do I have?",
+        "show me my rewards points"
+    ],
+    "redeem_rewards": [
+        "how to redeem my rewards points",
+        "use my rewards points",
+        "redeem cashback rewards",
+        "convert my points to cash",
+        "how do I use my rewards?"
+    ],
+    "request_wire_transfer": [
+        "how to request a wire transfer",
+        "send money via wire transfer",
+        "initiate international transfer",
+        "wire money to another bank",
+        "how do I send a wire transfer?"
+    ],
+    "check_foreign_exchange_rate": [
+        "what is the foreign exchange rate?",
+        "check currency conversion rate",
+        "how much is USD to EUR?",
+        "current exchange rates",
+        "what’s the rate for converting dollars to pounds?"
+    ],
+    "set_up_joint_account": [
+        "how to open a joint account",
+        "create a shared bank account",
+        "add a co-owner to my account",
+        "open an account with my spouse",
+        "how do I set up a joint account?"
+    ],
+    "request_stop_payment": [
+        "how to stop a payment",
+        "cancel a check payment",
+        "stop a pending transaction",
+        "request stop payment on a check",
+        "how do I stop a payment from going through?"
+    ],
+    "check_account_fees": [
+        "what are my account fees?",
+        "list my monthly fees",
+        "how much are my banking fees?",
+        "show me my account charges",
+        "what fees am I being charged?"
+    ],
+    "apply_for_mortgage": [
+        "how to apply for a mortgage",
+        "start a home loan application",
+        "get pre-approved for a mortgage",
+        "apply for a home loan online",
+        "can I apply for a mortgage here?"
+    ],
+    "refinance_loan": [
+        "how to refinance my loan",
+        "refinance my mortgage",
+        "lower my loan interest rate",
+        "apply for loan refinancing",
+        "how do I refinance my existing loan?"
+    ],
+    "check_account_activity": [
+        "show me my recent account activity",
+        "what transactions have been made recently?",
+        "view my latest account movements",
+        "check my account activity log",
+        "can I see my recent account activity?"
+    ],
+    "set_up_budgeting_tools": [
+        "how to set up budgeting tools",
+        "enable spending tracker",
+        "use budget planner",
+        "set up expense tracking",
+        "how do I track my spending?"
+    ],
+    "request_paperless_statements": [
+        "how to go paperless",
+        "enable electronic statements",
+        "switch to e-statements",
+        "opt for digital statements",
+        "how do I get paperless statements?"
+    ],
+    "check_savings_goal_progress": [
+        "how much have I saved so far?",
+        "check my savings goal progress",
+        "view my savings milestones",
+        "how close am I to my savings target?",
+        "show me my savings goal status"
+    ],
+    "request_account_upgrade": [
+        "how to upgrade my account",
+        "upgrade to premium account",
+        "get more features on my account",
+        "switch to a better account plan",
+        "how do I upgrade my current account?"
+    ],
+    "check_pending_transactions": [
+        "show me my pending transactions",
+        "what transactions are still pending?",
+        "view pending charges",
+        "check my pending payments",
+        "can I see my pending transactions?"
+    ],
+    "request_mobile_banking_access": [
+        "how to access mobile banking",
+        "download mobile banking app",
+        "get mobile banking access",
+        "enable mobile banking",
+        "how do I use mobile banking?"
+    ],
+    "check_account_restrictions": [
+        "what restrictions are on my account?",
+        "why is my account restricted?",
+        "check my account limitations",
+        "view account restrictions",
+        "why can’t I access my account?"
+    ],
+    "request_tax_documents": [
+        "how to get my tax documents",
+        "request 1099 form",
+        "get my W-2 form",
+        "send me my tax statements",
+        "can I get my tax forms online?"
+    ],
+    "set_up_recurring_payments": [
+        "how to set up recurring payments",
+        "schedule automatic payments",
+        "set up monthly bill payments",
+        "automate my payments",
+        "how do I set up recurring transfers?"
+    ],
+    "check_account_hold_status": [
+        "why is my account on hold?",
+        "check if my account is frozen",
+        "why can’t I use my account?",
+        "account hold status",
+        "is my account locked?"
+    ],
+    "request_duplicate_statements": [
+        "how to get duplicate statements",
+        "request old bank statements",
+        "send me previous statements",
+        "get copies of past statements",
+        "can I get a duplicate statement?"
+    ],
+    "check_account_eligibility": [
+        "am I eligible for this account?",
+        "check my eligibility for a loan",
+        "see if I qualify for a credit card",
+        "what accounts am I eligible for?",
+        "how do I check my eligibility?"
+    ],
+    "request_account_freeze": [
+        "how to freeze my account",
+        "temporarily lock my account",
+        "freeze my credit card",
+        "put a hold on my account",
+        "how do I freeze my account?"
+    ],
+    "check_account_closure_process": [
+        "how to close my account",
+        "process for closing an account",
+        "steps to terminate my account",
+        "how do I close my bank account?",
+        "what happens when I close my account?"
+    ],
+    "request_account_recovery": [
+        "how to recover my account",
+        "recover my lost account",
+        "restore my deleted account",
+        "help me regain access to my account",
+        "how do I recover my account?"
     ]
 }
